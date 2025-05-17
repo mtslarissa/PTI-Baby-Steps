@@ -24,4 +24,32 @@ router.get('/',async (req, res) => {
     }
 });
 
+router.post('/login', async (req, res) => {
+    const { email, senha } = req.body;
+
+    try {
+        const resultado = await SecurityPolicyViolationEvent.query(
+            'SELECT * FROM usuarios WHERE email = $1',
+            [email]
+        );
+
+        if (resultado.rows.lenght > 0) {
+            const usuario = resultado.rows[0];
+
+            const senhaCorreta = await bcrypt.compare(senha, usuario.senha_hash);
+
+            if (senhaCorreta) {
+                res.json({ sucesso: true, usuario });
+            } else {
+                res.status(401).json({sucesso: false, mensagem: 'Senha Incorreta' });
+            }
+        } else {
+            res.status(401).json({ sucesso: false, mensagem: 'Usuario nao encontrado'});
+        }
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ sucesso: false, mensagem: 'Erro interno '});
+    }
+});
+
 module.exports = router;
