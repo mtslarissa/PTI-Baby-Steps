@@ -5,7 +5,8 @@ const pool = new Pool({
     host: 'db.yypsfbasmoxdqinulmhw.supabase.co',
     database: 'postgres',
     password: 'babysteps',
-    port: '5432'
+    port: '5432',
+    family: '4'
 });
 
 module.exports = {
