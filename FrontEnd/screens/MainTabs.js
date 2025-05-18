@@ -4,7 +4,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import HomeScreen from './HomeScreen';
 import ProfileScreen from './ProfileScreen';
 import SettingsScreen from './SettingsScreen';
-import DiarioScreen from './DiarioScreen';  // Importando a tela do diário
+import DiarioScreen from './DiarioScreen';
+import DicasScreen from './DicasScreen'; // ✅ Novo import
 
 const Tab = createBottomTabNavigator();
 
@@ -27,10 +28,19 @@ export default function MainTabs({ user, setUser }) {
       />
       <Tab.Screen
         name="Diário"
-        component={DiarioScreen}  // Associando a tela do Diário
+        component={DiarioScreen}
         options={{
           tabBarIcon: ({ color, size }) => (
             <MaterialCommunityIcons name="book-open-page-variant" color={color} size={size} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Dicas"
+        component={DicasScreen}
+        options={{
+          tabBarIcon: ({ color, size }) => (
+            <MaterialCommunityIcons name="lightbulb-on-outline" color={color} size={size} />
           ),
         }}
       />

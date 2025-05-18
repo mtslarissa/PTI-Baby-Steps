@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "babysteps",
-    "slug": "snack-0d00835a-7bbf-48f4-98af-c6295bef47f4",
+    "slug": "snack-4f151c05-9737-4f0d-b43d-0291583cd8f8",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,7 +19,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "favicon": "./assets/favicon.png"

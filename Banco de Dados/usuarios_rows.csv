@@ -1,0 +1,3 @@
+id,nome,email,senha_hash
+1,Mateus Costa,mateus@gmail.com,abcdef
+2,Alice Silva,alice@gmail.com,123456
