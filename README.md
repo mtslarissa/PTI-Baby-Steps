@@ -16,6 +16,7 @@ Esmael Kugelemeier Tondello
 Elen Fernanda Barbaglia
 
 Tecnologias Utilizadas
+
 Backend: Node.js com Express
 API hospedada no OnRender
 Conexão direta com PostgreSQL via queries SQL
