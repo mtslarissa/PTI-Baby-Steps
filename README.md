@@ -13,6 +13,8 @@ Danilo Augusto Gonçalves da Silva
 
 Esmael Kugelemeier Tondello
 
+Elen Fernanda Barbaglia
+
 Tecnologias Utilizadas
 Backend: Node.js com Express
 API hospedada no OnRender
