@@ -15,6 +15,8 @@ Esmael Kugelemeier Tondello
 
 Elen Fernanda Barbaglia
 
+Dayane Kely Ventura Sampaio
+
 Tecnologias Utilizadas
 
 Backend: Node.js com Express
