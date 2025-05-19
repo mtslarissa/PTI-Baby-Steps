@@ -4,8 +4,11 @@ Projeto Integrador - SENAC
 Baby Steps é uma aplicação mobile voltada para o acompanhamento do desenvolvimento de bebês, oferecendo um diário interativo, dicas úteis para os pais e funcionalidades integradas com banco de dados em tempo real.
 
 Integrantes
+
 Larissa Neres Martins 
+
 Bruno Gomes Ascenso
+
 Danilo Augusto Gonçalves da Silva 
 
 Tecnologias Utilizadas
