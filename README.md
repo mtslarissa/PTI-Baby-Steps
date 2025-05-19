@@ -17,6 +17,8 @@ Elen Fernanda Barbaglia
 
 Dayane Kely Ventura Sampaio
 
+Landing Page: https://mtslarissa.github.io/PTI-Baby-Steps/
+
 Tecnologias Utilizadas
 
 Backend: Node.js com Express
