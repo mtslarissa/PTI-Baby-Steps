@@ -5,7 +5,8 @@ Baby Steps é uma aplicação mobile voltada para o acompanhamento do desenvolvi
 
 Integrantes
 Larissa Neres Martins 
-Bruno Gomes Ascenso 
+Bruno Gomes Ascenso
+Danilo Augusto Gonçalves da Silva 
 
 Tecnologias Utilizadas
 Backend: Node.js com Express
